@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <SidebarContainter
       collapsible='icon'
-      className={cn('w-full max-w-[260px]', state == 'collapsed' && '!w-14')}
+      className={cn('w-full max-w-[260px]')}
     >
       <div
         className={cn(

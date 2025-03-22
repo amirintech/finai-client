@@ -4,13 +4,13 @@ import Image from 'next/image'
 const BottomSection = () => {
   return (
     <section className='flex h-16 items-center border-b'>
-      <div className='flex w-full items-center justify-between px-3'>
+      <div className='flex w-full items-center justify-between pl-3'>
         <h1 className='text-2xl font-bold'>Dashboard</h1>
 
         <Button
           asChild
           variant='ghost'
-          className='h-auto w-auto px-3 py-1.5'
+          className='h-auto w-auto px-3.5 py-1.5'
         >
           <div>
             <div className='relative size-10 overflow-hidden rounded-full'>
