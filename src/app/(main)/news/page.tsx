@@ -1,9 +1,13 @@
-import React from 'react'
+'use client'
 
-type Props = {}
+import NewsFeed from '@/components/news/news-feed'
 
-const Page = (props: Props) => {
-  return <div>Page</div>
+const Page = () => {
+  return (
+    <div className='h-full w-full overflow-hidden'>
+      <NewsFeed />
+    </div>
+  )
 }
 
 export default Page
